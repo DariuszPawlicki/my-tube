@@ -1,0 +1,32 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #202020 !important;
+}
+
+.navbar-nav{
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 33vw;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vw;
+}
+
+#container > main{
+    height: 80vw;
+    background-color: #0f0f0f !important;
+}
+
+#navbar-right-menu{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: -5vw;
+}
